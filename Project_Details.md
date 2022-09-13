@@ -28,3 +28,52 @@ style="width: 450px; max-width: 100%; height: auto" title="Click to enlarge pict
 We will use **Python interactive notebook (ipynb)** to make this ML model. <br>
 
 <hr>
+
+## **INSTALLATIONS**
+
+```sh
+pip install numpy
+```
+```sh
+pip install opencv-python
+```
+```sh
+pip install matplotlib
+```
+```sh
+pip install tensorflow
+```
+<hr>
+
+## **IMPORT STATEMENTS REQUIREMENTS**
+
+```python
+import os
+
+# import os means that it is a module to interact with the underlying operating system.
+```
+
+```python
+import cv2
+
+# cv2 is the module under the OpenCV(Open Computer Vision) it is used all sort of image and video analysis like: facial recognition, liscence plate reading, Optical character recognition etc..
+```
+
+```python
+import numpy as np
+
+#NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+```
+
+```python
+import tensorflow as tf
+
+#TensorFlow is an open source framework developed by Google researchers to run machine learning, deep learning and other statistical and predictive analytics workloads.
+```
+
+```python
+import matplotlib.pyplot as plt
+
+#Pyplot is an API (Application Programming Interface) for Python's matplotlib that effectively makes matplotlib a viable open source alternative to MATLAB. Matplotlib is a library for data visualization, typically in the form of plots, graphs and charts.
+```
+<hr>
