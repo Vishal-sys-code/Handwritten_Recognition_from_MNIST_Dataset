@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-print("Welcome to the NeuralNine (c) Handwritten Digits Recognition v0.1")
+print("Handwritten Digit Recognition by MNIST")
 
 # Decide if to load an existing model or to train a new one
 train_new_model = True
